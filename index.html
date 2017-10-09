@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kiphlora Learning Adventure</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/project-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/page-style.css">
+
+	<script src="js/d3/d3.min.js"></script>
+	<script src="js/util.js"></script>
+	<style>
+
+		pre[data-lang]::before {
+		  content: attr(data-lang);
+		  display: block;
+		  text-align: right;
+		  /*border-bottom: 2px dotted #333;*/
+		}
+		pre {
+		    border-radius: 5px; 
+		    -moz-border-radius: 5px; 
+		    -webkit-border-radius: 5px;
+		    border: 1px solid #BCBEC0;
+		    background: #F1F3F5;
+		    padding: 10px;
+		    padding-left: 30px;
+		    font:12px Monaco,Consolas,"Andale  Mono","DejaVu Sans Mono",monospace
+		}
+
+		code {
+		    border-radius: 5px; 
+		    -moz-border-radius: 5px; 
+		    -webkit-border-radius: 5px; 
+		    border: 1px solid #BCBEC0;
+		    padding: 2px;
+		    font:12px Monaco,Consolas,"Andale  Mono","DejaVu Sans Mono",monospace
+		}
+
+		pre code {
+		    border-radius: 0px; 
+		    -moz-border-radius: 0px; 
+		    -webkit-border-radius: 0px; 
+		    border: 0px;
+		    padding: 2px;
+		    font:16px Monaco,Consolas,"Andale  Mono","DejaVu Sans Mono",monospace
+		}
+	</style>
+</head>
+<body>
+  <div class="container">
+		<header class="hero-header">
+			<div class="my-name">Kiphlora Learning Adventure</div>
+			<div class="nav">
+				<!-- <a href="about/index.html"><div class="about-nav"></div></a> -->
+				<a href="http://www.kiphlora.com"><div class="portfolio-nav">Return to Kiphlora</div></a>
+			</div>
+		</header>
+
+		<div class="hero-content-wrapper">
+			<div class="intro-content">
+				<h3>Welcome to Kiphlora!</h3>
+				<p>
+					Kiphlora is a fictional world that I created while I was a Peace Corps Volunteer in Namibia. While in the Peace Corps, I worked as a Mathematics Teacher. For the first year, I struggled with both classroom management and learner engagement. I decided to try something new for my second year. It was then that Kiphlora was born.
+				</p>
+				<h3>Worksheets vs. Lectures</h3>
+				<p>
+					As a novice teacher, I spent most of my time lecturing my students. It was difficult. I tried so many different methods for making the lectures more interesting, but none of them worked as well as I wanted. During my second year, I started the school year by making short worksheets to give to the kids. These worksheets, along with their textbooks, kept them focused during class, while I walked around helping them individually. The worksheets were a success; their grades were improving, they were working together to teach each other, and I had the chance to go around and help them in smaller groups rather than talk at them for the entire period.
+				</p>
+				<p>
+					There were problems with the worksheet model, however. The first was literacy. While English is the official language of Namibia, there are multiple languages spoken around the country. I was placed in a small village in the southern part of Namibia called Bethanie (pronounced Beh-tah-nee) where the majors languages (other than English) were Afrikaans and Khoekhoegowab. Most of the kids spoke two, three, or more languages. As sixth graders, many of my learners could speak English well, but not all could read it well. This led to challenges with parsing the textbooks and my worksheets, which meant they were falling behind. As an overwhelmed teacher, I mistook their struggles as not caring about their education, realizing too late how much help they really needed.
+				</p>
+				<p>
+					The second issue with the worksheet model was that it wasn't necessarily engaging enough for some students. I knew that while some students clung to math because its symbols and numbers were more or less universal (alluding to the literacy problem from before), others disliked it because it didn't seem interesting, fun, or useful to them.
+				</p>
+				<h3>Not Engaging Enough</h3>
+				<p>
+					Despite trying to make the worksheets interesting, they were dry. I knew I needed and wanted to spice things up, but I wasn't sure how. 
+				</p>
+				<p>
+					I was in charge of the school's library during my two years there. It was, by far, my favorite place to be. The collection wasn't large, but it was enough to allow the kids to borrow books. Many of my sixth grade students came up to read books, study for exams, or just chat quietly. Some of them were so excited to borrow books that we began talking about the books they read. At some point, it dawned on me that they really loved the stories and characters they were reading about; I thought of a way to engage them. It was going to be a lot of work, but I wanted to do it. For them. It was at that moment that I began to discover Kiphlora. 
+				</p>
+				<h3>A Learning Adventure</h3>
+				<p>
+					It was roughly a month or two before the final term of the year began when I decided to flush out Kiphlora, its characters, stories, and quests. I lost track of time during development, but I think it took me about a month and a half to create the four main regions and the roughly 30 quests that they kids would have to go on during their (and my) last term.
+				</p>
+				<p>
+					As there was a perpetual shortage of ink at my school, I kept each chapter + quest to two pages (to be printed on both sides of a sheet of paper). This was a challenge because I wanted to write more story details to help the kids connect with the characters, and I wanted to make sure I explained everything as clearly as I could.
+				</p>
+				<h3>Exploring Kiphlora</h3>
+				<p>
+					To make it seem more real, I drew a map of Kiphlora. The first day I brought it in, the kids looked at it and asked lots of questions. I was happy to tell them non-story-spoiling things about the world they were about to explore.
+				</p>
+				<figure>
+					<img src="img/kiphlora-world-map.jpg" alt="Kiphlora World Map">
+					<figcaption>The world of Kiphlora!</figcaption>
+				</figure>
+				<p>
+					I introduced Kiphlora to the kids by telling them that they had just arrived from Earth, as part of the Namibian Interstellar Cultural Exchange (NICE) program. Their goal was to travel Kiphlora and make friends with the local characters.
+				</p>
+				<p>
+					I had each learner choose one of the four regions to start in. I told them nothing about the stories, but I did show them the areas on the map. After they had all chosen a story to begin their journey on, I gave them their regions' first chapters and let them explore.
+				</p>
+				<p>
+					Once they finished reading the story and completing the task, they would come up to me so I could ask them some reading comprehension questions and check the correctness of their task. If they were correct, I gave them the next chapter in their story, as well as a sticker to put on the "Reputations" chart that acted as a kind of progress/leadership board. 
+				</p>
+				<p>
+					In retrospect, having them stand in line and wait their turn to get their quests graded was an ineffective way to handle the things. The daily deluge of children was overwhelming, and having them wait in line with nothing else to do led to behavior problems. Furthermore, I was always busy, so I didn't have the time to help any of the learners who were struggling.
+				</p>
+				<p>
+					In terms of learner engagement, the game succeeded greatly! Of course, not all of the kids were engaged (I hypothesize that it may have had to do with the literacy issue I mentioned before), but most were. In fact, over half of the kids used to come to the library to continue working on the quests during their breaks, when they could have been playing soccer instead. And, a third of the children would willingly stay after school, just so they could continue working on them.
+				</p>
+				<h3>The Quests</h3>
+				<p>
+					By now, you might be interested in seeing some of these stories and tasks. Below, you'll find four different wells, corresponding to the four regions, with each one containing the quests of that region.
+				</p>
+				<div class="well lipero">
+					
+				</div>
+				<div class="well arom">
+					
+				</div>
+				<div class="well okaparnis">
+					
+				</div>
+				<div class="well libly">
+					
+				</div>
+				<h3>Reflections</h3>
+				<p>
+					I was pleased with the learner engagement, but displeased with how I handled grading the quests. I also ran into the issue of writing a single set of stories and challenges for an audience with a wide range of skills. Some of the kids had more exposure to English than others, which helped them excel at the game.
+				</p>
+				<p>
+					It was then that the ideas for personalizing education rooted into my mind. I think game-based and challenge-based learning have promise, but I also know from personal experience just how much work goes into making something like that. I think, especially with the massive amounts of data being collected all the time, that we might one day be able to use technology to personalize content and learning objectives, tailoring them to an individual.
+				</p>
+				
+			</div>
+		</div>
+		<footer class="hero-footer">
+			<div class="footer-info">
+			<a href="https://github.com/kiphlora/"><div>github.com/kiphlora</div></a>
+			<a href="mailto:kiphlora@gmail.com" target="_top"><div>kiphlora@gmail.com</div></a>
+			<p>&copy 2017 Brett Moran</p>
+		</div>
+		</footer>
+  </div>
+
+
+  <script>
+		
+  </script>
+
+</body>
+</html>
