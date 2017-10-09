@@ -188,6 +188,15 @@ a:hover, a:active, a:focus {
 	margin: 0;
 }
 
+.intro-content .disclaimer {
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.intro-content .disclaimer span {
+	font-weight: bold;
+}
+
 figure {
 	margin: 0;
 	padding: 0;
