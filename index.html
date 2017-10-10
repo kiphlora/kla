@@ -7,9 +7,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/project-theme.css">
 	<link rel="stylesheet" type="text/css" href="css/page-style.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 
-	<script src="js/d3/d3.min.js"></script>
-	<script src="js/util.js"></script>
 	<style>
 
 		pre[data-lang]::before {
@@ -119,26 +118,209 @@
 				<p>
 					By now, you might be interested in seeing some of these stories and tasks. Below, you'll find four different wells, corresponding to the four regions, with each one containing the quests of that region.
 				</p>
-				<div class="well lipero">
+				<div id="all-quests">
+
+					<!-- Intro to KLA -->
+					<a href="pdf/Kiphlora Introduction - NICE.pdf" class="light-bg-quest-link">
+						<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+						<p>Introduction to the Kiphlora Learning Adventure</p>
+					</a>	
 					
-				</div>
-				<div class="well arom">
-					
-				</div>
-				<div class="well okaparnis">
-					
-				</div>
-				<div class="well libly">
+					<!-- Lipero region -->
+					<div class="well lipero">
+						<p class="region-title">The Lipero Region</p>
+						
+						<a href="pdf/Lipero/Lipero Story Quest 1 - Meetings and Welcomings.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 1 - Meetings and Welcomings</p>
+						</a>
+
+						<a href="pdf/Lipero/Lipero Story Quest 2 - Nightmares and the Truth About Lipero.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 2 - Nightmares and the Truth About Lipero</p>
+						</a>
+
+						<a href="pdf/Lipero/Lipero Story Quest 3 - Preparations and Traveling to the Pobri Villages.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 3 - Preparations and Traveling to the Pobri Villages</p>
+						</a>
+
+						<a href="pdf/Lipero/Lipero Story Quest 4 - Through the Forest.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 4 - Through the Forest</p>
+						</a>
+
+						<a href="pdf/Lipero/Lipero Story Quest 5 - Negotiations with the Owls.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 5 - Negotiations with the Owls</p>
+						</a>
+
+						<a href="pdf/Lipero/Lipero Story Quest 6 - Saved the Lipero!.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Epilogue - Saved the Lipero!</p>
+						</a>
+
+						<a href="pdf/Lipero/Lipero Side Quest - The Jestival Approaches!.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Side Quest - The Jestival Approaches!</p>
+						</a>
+						
+					</div>
+
+					<!-- Arom Region -->
+					<div class="well arom">
+						<p class="region-title">The Arom Region</p>
+						
+						<a href="pdf/Arom/Arom Story Quest 1 - The Trees Share Their Pain.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 1 - The Trees Share Their Pain</p>
+						</a>
+
+						<a href="pdf/Arom/Arom Story Quest 2 - The Ruby Famine.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 2 - The Ruby Famine</p>
+						</a>
+
+						<a href="pdf/Arom/Arom Story Quest 3 - Glastronomy.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 3 - Glastronomy</p>
+						</a>
+
+						<a href="pdf/Arom/Arom Story Quest 4 - Pick a Nomba, Any Nomba....pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 4 - Pick a Nomba, Any Nomba...</p>
+						</a>
+
+						<a href="pdf/Arom/Arom Story Quest 5 - Atop the Mountain!.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 5 - Atop the Mountain!</p>
+						</a>
+
+						<a href="pdf/Arom/Arom Story Quest 6 - Squeezing Water from a Stone.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 6 - Squeezing Water from a Stone</p>
+						</a>
+
+						<a href="pdf/Arom/Arom Story Quest Epilogue - Anti-Deforestation!.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Epilogue - Anti-Deforestation!</p>
+						</a>
+
+						<a href="pdf/Arom/Arom Side Quest - We're Going Mining!.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Side Quest - We're Going Mining!</p>
+						</a>
+
+					</div>
+
+					<!-- Okaparnis Region -->
+					<div class="well okaparnis">
+						<p class="region-title">The Okaparnis Region</p>
+						
+						<a href="pdf/Okaparnis/Okaparnis Story Quest 1 - Memories and Promises.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 1 - Memories and Promises</p>
+						</a>
+
+						<a href="pdf/Okaparnis/Okaparnis Story Quest 2 - Give Me One Dollar.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 2 - Give Me One Dollar</p>
+						</a>
+
+						<a href="pdf/Okaparnis/Okaparnis Story Quest 3 - Membership and Fruit.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 3 - Membership and Fruit</p>
+						</a>
+
+						<a href="pdf/Okaparnis/Okaparnis Story Quest 4 - Become One With the Mantis.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 4 - Become One With the Mantis</p>
+						</a>
+
+						<a href="pdf/Okaparnis/Okaparnis Story Quest 5 - Clean Up!.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 5 - Clean Up!</p>
+						</a>
+
+						<a href="pdf/Okaparnis/Okaparnis Story Quest 6 - Calmed the Stormy Seas!.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Epilogue - Calmed the Stormy Seas!</p>
+						</a>
+
+						<a href="pdf/Okaparnis/Okaparnis Side Quest - Fisherperson!.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Side Quest - Fisherperson!</p>
+						</a>
+
+						<a href="pdf/Okaparnis/Okaparnis Side Quest (Topic Task 1) - Time Flows Again!.pdf" class="dark-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Side Quest - Time Flows Again!</p>
+						</a>
+
+					</div>
+
+					<!-- Libly Region -->
+					<div class="well libly">	
+						<p class="region-title">The Libly Region</p>
+						
+						<a href="pdf/Libly/Libly Story Quest 1 - Linnaeus Lake.pdf" class="light-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 1 - Linnaeus Lake</p>
+						</a>
+
+						<a href="pdf/Libly/Libly Story Quest 2 - Breakfast and Black Powder.pdf" class="light-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 2 - Breakfast and Black Powder</p>
+						</a>
+
+						<a href="pdf/Libly/Libly Story Quest 3 - Two Problems, One Solution.pdf" class="light-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 3 - Two Problems, One Solution</p>
+						</a>
+
+						<a href="pdf/Libly/Libly Story Quest 4 - Detour.pdf" class="light-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 4 - Detour</p>
+						</a>
+
+						<a href="pdf/Libly/Libly Story Quest 5 - Beyond Fireworks!.pdf" class="light-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Chapter 5 - Beyond Fireworks!</p>
+						</a>
+
+						<a href="pdf/Libly/Libly Story Quest Epilogue - May the Source Be With You!.pdf" class="light-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Epilogue - May the Source Be With You!</p>
+						</a>
+
+						<a href="pdf/Libly/Libly Side Quest (Investigation) - Dividing Up the Home!.pdf" class="light-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Side Quest - Dividing Up the Home!</p>
+						</a>
+
+						<a href="pdf/Libly/Libly Side Quest (Topic Task 2) - Climbing the Waterfall!.pdf" class="light-bg-quest-link">
+							<i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
+							<p>Side Quest - Climbing the Waterfall!</p>
+						</a>
+
+					</div>
+				
 					
 				</div>
 				<h3>Reflections</h3>
 				<p>
-					I was pleased with the learner engagement, but displeased with how I handled grading the quests. I also ran into the issue of writing a single set of stories and challenges for an audience with a wide range of skills. Some of the kids had more exposure to English than others, which helped them excel at the game.
+					Overall, I was pleased with the learner engagement during the implementation of the adventure. However, I wish the grading portion had gone more smoothly. I also ran into the issue of writing a single set of stories and challenges for an audience with a wide range of skills. Some of the kids had more exposure to English than others, which helped them excel at the game.
 				</p>
 				<p>
-					It was then that the ideas for personalizing education rooted into my mind. I think game-based and challenge-based learning have promise, but I also know from personal experience just how much work goes into making something like that. I think, especially with the massive amounts of data being collected all the time, that we might one day be able to use technology to personalize content and learning objectives, tailoring them to an individual.
+					It was while reflecting on the game and how it went during classes that the ideas for personalizing education became rooted in my mind. I think game-based and challenge-based learning have promise, but I also know from personal experience just how much work goes into making something like that. I think that with the massive amounts of data being collected all the time and the progress of game industry algorithms for procedurally generating content, we might one day be able to use technology to personalize content and learning objectives, tailoring them to each individual with relative ease.
 				</p>
-				
+				<p>
+					If nothing else, I'd like to turn this into an electronic game one day. I think the auto-grading alone would be worth the effort, hahaha.
+				</p>
+				<p>
+					Thanks for reading. I hope you enjoyed your time on Kiphlora.
+				</p>
+
 			</div>
 		</div>
 		<footer class="hero-footer">
